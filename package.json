@@ -1,0 +1,25 @@
+{
+  "name": "app_bookingroom",
+  "version": "1.0.0",
+  "description": "App booking seminar hall",
+  "main": "src/server.js",
+  "scripts": {
+    "sass": "node-sass --watch  src/resources/scss/ --output  src/public/css/",
+    "start": "nodemon src/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "KIEN VU",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "mongoose": "^6.8.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
